@@ -1,0 +1,52 @@
+{
+  "name": "platzigram",
+  "version": "0.1.0",
+  "description": "Comparte tus fotos estudiando en Platzi con el resto de la comunidad",
+  "main": "server.js",
+  "keywords": [
+    "platzi",
+    "javascript",
+    "curso-definitivo",
+    "platzigram"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JSifontz/platzigram"
+  },
+  "author": "Juan Sifontez <juansfontz@gmail.com> (http://twitter.com/Jsifontz_)",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "empty-element": "^1.0.0",
+    "express": "^4.15.4",
+    "file-extension": "^3.1.2",
+    "intl": "^1.2.5",
+    "intl-messageformat": "^2.1.0",
+    "intl-relativeformat": "^2.0.0",
+    "materialize-css": "^0.100.2",
+    "moment": "^2.18.1",
+    "multer": "^1.3.0",
+    "page": "^1.7.1",
+    "pug": "^2.0.0-rc.4",
+    "superagent": "^3.6.1",
+    "title": "^1.0.0",
+    "yo-yo": "^1.4.1"
+  },
+  "devDependencies": {
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-runtime": "^6.26.0",
+    "babelify": "^7.3.0",
+    "browserify": "^14.4.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.9.0"
+  },
+  "scripts": {
+    "build": "gulp",
+    "start": "concurrently \"gulp watch\" \"node server.js\""
+  }
+}
